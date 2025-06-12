@@ -1,0 +1,46 @@
+body {
+  color: rgb(209, 67, 126);
+  background-color: rgb(118, 163, 175);
+}
+
+h1 {
+  text-align: center;
+  font-family: monospace;
+  font-size: 50px;
+}
+
+p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+/* style.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333; /* couleur de fond sombre */
+  color: white; /* texte en blanc */
+  padding: 20px; /* espace intérieur */
+  display: flex; /* mise en ligne */
+  justify-content: space-between; /* titre à gauche, menu à droite */
+  align-items: center; /* centrage vertical */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
